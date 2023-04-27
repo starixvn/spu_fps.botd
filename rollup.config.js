@@ -1,5 +1,4 @@
 import * as fs from 'fs'
-import type { RollupOptions } from 'rollup'
 import jsonPlugin from '@rollup/plugin-json'
 import nodeResolvePlugin from '@rollup/plugin-node-resolve'
 import typescriptPlugin from '@rollup/plugin-typescript'
@@ -17,7 +16,7 @@ export const commonInput = {
 
 export const commonOutput = {
   name: 'BotD',
-  exports: 'named' as const,
+  exports: 'named',
   plugins: [
     licensePlugin({
       banner: {
@@ -29,7 +28,7 @@ export const commonOutput = {
   ],
 }
 
-const config: RollupOptions[] = [
+export default [
   // NPM bundles. They have all the dependencies excluded for end code size optimization.
   {
     ...commonInput,
@@ -62,5 +61,3 @@ const config: RollupOptions[] = [
     },
   },
 ]
-
-export default config
