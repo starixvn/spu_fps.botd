@@ -1,7 +1,7 @@
 {
   "name": "@fps/botd",
-  "version": "1.0.1",
-  "description": "botd is a browser library for JavaScript bot detection",
+  "version": "1.1.1",
+  "description": "Implement BOTD-Extra",
   "keywords": [
     "bot",
     "bot detection",

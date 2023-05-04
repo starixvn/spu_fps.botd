@@ -15,6 +15,8 @@ import { detectWebDriver } from './webdriver'
 import { detectWebGL } from './webgl'
 import { detectWindowExternal } from './window_external'
 import { detectWindowSize } from './window_size'
+import { detectPlatform } from './platform'
+import { detectVmFromMemoryScreenDimensions } from './memory_screen_dimensions'
 import { detectDistinctiveProperties } from './distinctive_properties'
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
@@ -36,5 +38,7 @@ export const detectors = {
   detectWindowSize,
   detectMimeTypesConsistent,
   detectProductSub,
+  detectPlatform,
+  detectVmFromMemoryScreenDimensions,
   detectDistinctiveProperties,
 }
