@@ -8,6 +8,7 @@ export function detectPluginsLengthInconsistency({ pluginsLength }: ComponentDic
   // Chromium based android browsers and mobile webkit based browsers have 0 plugins length.
   if (
     (browserEngineKind === BrowserEngineKind.Chromium && isAndroid()) ||
+    (browserEngineKind === BrowserEngineKind.Gecko && isAndroid()) ||
     (browserEngineKind === BrowserEngineKind.Webkit && !isDesktopSafari()) ||
     browserKind === BrowserKind.WeChat
   )
