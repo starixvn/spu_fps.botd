@@ -1,7 +1,7 @@
 {
   "name": "@fps/botd",
-  "version": "1.1.1",
-  "description": "Implement BOTD-Extra",
+  "version": "1.1.2",
+  "description": "Fix rule PluginsLengthInconsistency, add Gecko condition",
   "keywords": [
     "bot",
     "bot detection",
@@ -93,6 +93,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@fps/botd": "^1.1.1",
     "tslib": "^2.4.0"
   }
 }
