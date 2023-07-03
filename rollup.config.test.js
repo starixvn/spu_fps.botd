@@ -1,4 +1,4 @@
-import { commonInput, commonOutput } from './rollup.config'
+import { commonInput, commonOutput } from './rollup.config.js'
 
 const outputDirectory = 'test-dist'
 
