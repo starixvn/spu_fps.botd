@@ -19,7 +19,7 @@ import getWindowSize, { WindowSizePayload } from './window_size'
 import getPlatform from './platform'
 import getDeviceMemory from './device_memory'
 import getScreenDimensions from './screen_dimensions'
-import checkDistinctiveProperties from './distinctive_properties'
+import checkDistinctiveProperties, {DistinctivePropertiesPayload} from './distinctive_properties'
 
 export const sources = {
   userAgent: getUserAgent,
