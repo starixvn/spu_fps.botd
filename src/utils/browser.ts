@@ -16,7 +16,7 @@ export function getBrowserEngineKind(): BrowserEngineKind {
       'BatteryManager' in w,
       'webkitMediaStream' in w,
       'webkitSpeechGrammar' in w,
-    ]) >= 5
+    ]) >= 4
   ) {
     return BrowserEngineKind.Chromium
   }
