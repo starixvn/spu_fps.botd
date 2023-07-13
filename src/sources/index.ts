@@ -16,7 +16,6 @@ import getWebDriver from './webdriver'
 import getWebGL from './webgl'
 import getWindowExternal from './window_external'
 import getWindowSize, { WindowSizePayload } from './window_size'
-import getPlatform from './platform'
 import getDeviceMemory from './device_memory'
 import getScreenDimensions from './screen_dimensions'
 import checkDistinctiveProperties, {DistinctivePropertiesPayload} from './distinctive_properties'
@@ -40,7 +39,6 @@ export const sources = {
   documentElementKeys: getDocumentElementKeys,
   functionBind: getFunctionBind,
   process: getProcess,
-  platform: getPlatform,
   deviceMemory: getDeviceMemory,
   screenDimensions: getScreenDimensions,
   distinctiveProps: checkDistinctiveProperties,
