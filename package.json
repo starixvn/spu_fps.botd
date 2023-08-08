@@ -1,7 +1,7 @@
 {
   "name": "@fps/botd",
-  "version": "1.1.5",
-  "description": "Get more Browser Info",
+  "version": "1.1.6",
+  "description": "Merge code github, ignore wechat (#137)",
   "keywords": [
     "bot",
     "bot detection",
