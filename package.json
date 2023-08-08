@@ -1,7 +1,7 @@
 {
   "name": "@fps/botd",
-  "version": "1.1.4",
-  "description": "Fix rule NotificationPermissions for Samsung Internet & HeyTapBrowser",
+  "version": "1.1.5",
+  "description": "Get more Browser Info",
   "keywords": [
     "bot",
     "bot detection",
