@@ -10,7 +10,6 @@ import getPluginsArray from './plugins_array'
 import getPluginsLength from './plugins_length'
 import getProcess, { ProcessPayload } from './process'
 import getProductSub from './product_sub'
-import getRTT from './rtt'
 import getUserAgent from './user_agent'
 import getWebDriver from './webdriver'
 import getWebGL from './webgl'
@@ -24,7 +23,6 @@ import getBrowserInfo from './browser_info'
 export const sources = {
   userAgent: getUserAgent,
   appVersion: getAppVersion,
-  rtt: getRTT,
   windowSize: getWindowSize,
   pluginsLength: getPluginsLength,
   pluginsArray: getPluginsArray,
