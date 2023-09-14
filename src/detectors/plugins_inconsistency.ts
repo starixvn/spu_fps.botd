@@ -6,6 +6,5 @@ export function detectPluginsLengthInconsistency({ pluginsLength }: ComponentDic
   const browserKind = getBrowserKind()
   const browserEngineKind = getBrowserEngineKind()
   if (browserKind !== BrowserKind.Chrome || isAndroid() || browserEngineKind !== BrowserEngineKind.Chromium) return
-    (browserEngineKind === BrowserEngineKind.Gecko && isAndroid()) ||
   if (pluginsLength.value === 0) return BotKind.HeadlessChrome
 }
