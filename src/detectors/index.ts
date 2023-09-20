@@ -5,7 +5,6 @@ import { detectEvalLengthInconsistency } from './eval_length'
 import { detectFunctionBind } from './function_bind'
 import { detectLanguagesLengthInconsistency } from './languages_inconsistency'
 import { detectMimeTypesConsistent } from './mime_types_consistence'
-import { detectNotificationPermissions } from './notification_permissions'
 import { detectPluginsArray } from './plugins_array'
 import { detectPluginsLengthInconsistency } from './plugins_inconsistency'
 import { detectProcess } from './process'
@@ -26,7 +25,6 @@ export const detectors = {
   detectEvalLengthInconsistency,
   detectFunctionBind,
   detectLanguagesLengthInconsistency,
-  detectNotificationPermissions,
   detectPluginsArray,
   detectPluginsLengthInconsistency,
   detectProcess,

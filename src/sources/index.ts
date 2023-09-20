@@ -5,7 +5,6 @@ import getEvalLength from './eval_length'
 import getFunctionBind from './function_bind'
 import getLanguages from './languages'
 import areMimeTypesConsistent from './mime_types_consistence'
-import getNotificationPermissions from './notification_permissions'
 import getPluginsArray from './plugins_array'
 import getPluginsLength from './plugins_length'
 import getProcess, { ProcessPayload } from './process'
@@ -34,7 +33,6 @@ export const sources = {
   webGL: getWebGL,
   webDriver: getWebDriver,
   languages: getLanguages,
-  notificationPermissions: getNotificationPermissions,
   documentElementKeys: getDocumentElementKeys,
   functionBind: getFunctionBind,
   process: getProcess,
