@@ -54,4 +54,5 @@ export {
   DistinctivePropertiesPayload,
   BotDetectionResult,
   BotKind,
+  BotDetectorInterface
 }
